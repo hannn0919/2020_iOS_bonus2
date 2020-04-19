@@ -13,6 +13,9 @@
 		658E4F8C244A764200257B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658E4F8B244A764200257B60 /* Assets.xcassets */; };
 		658E4F8F244A764200257B60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658E4F8E244A764200257B60 /* Preview Assets.xcassets */; };
 		658E4F92244A764200257B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658E4F90244A764200257B60 /* LaunchScreen.storyboard */; };
+		658E4F9A244AF4BB00257B60 /* dataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E4F99244AF4BB00257B60 /* dataSet.swift */; };
+		658E4F9C244AF52600257B60 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E4F9B244AF52600257B60 /* FriendsView.swift */; };
+		658E4F9E244C572500257B60 /* selfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E4F9D244C572500257B60 /* selfView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		658E4F8E244A764200257B60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		658E4F91244A764200257B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		658E4F93244A764200257B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658E4F99244AF4BB00257B60 /* dataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataSet.swift; sourceTree = "<group>"; };
+		658E4F9B244AF52600257B60 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		658E4F9D244C572500257B60 /* selfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				658E4F85244A763D00257B60 /* AppDelegate.swift */,
 				658E4F87244A763D00257B60 /* SceneDelegate.swift */,
 				658E4F89244A763D00257B60 /* ContentView.swift */,
+				658E4F9B244AF52600257B60 /* FriendsView.swift */,
+				658E4F9D244C572500257B60 /* selfView.swift */,
+				658E4F99244AF4BB00257B60 /* dataSet.swift */,
 				658E4F8B244A764200257B60 /* Assets.xcassets */,
 				658E4F90244A764200257B60 /* LaunchScreen.storyboard */,
 				658E4F93244A764200257B60 /* Info.plist */,
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658E4F9E244C572500257B60 /* selfView.swift in Sources */,
+				658E4F9C244AF52600257B60 /* FriendsView.swift in Sources */,
 				658E4F86244A763D00257B60 /* AppDelegate.swift in Sources */,
 				658E4F88244A763D00257B60 /* SceneDelegate.swift in Sources */,
+				658E4F9A244AF4BB00257B60 /* dataSet.swift in Sources */,
 				658E4F8A244A763D00257B60 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"2020_iOS_bonus2/Preview Content\"";
+				DEVELOPMENT_TEAM = YDK5Y75PVA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = 2020_iOS_bonus2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"2020_iOS_bonus2/Preview Content\"";
+				DEVELOPMENT_TEAM = YDK5Y75PVA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = 2020_iOS_bonus2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
